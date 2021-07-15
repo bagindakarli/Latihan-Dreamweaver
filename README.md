@@ -1,2 +1,2 @@
 # Latihan-Dreamweaver
-Dreamweaver 2016
+Merupakan kumpulan latihan membuat _website_ dinamis menggunakan Adobe Dreamweaver.
