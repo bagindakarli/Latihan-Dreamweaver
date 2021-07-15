@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+body,td,th {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+.teks_bab {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 36px;
+	color: #FFF;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.teks_biasa {
+	font-size: 20px;
+	color: #999;
+	font-style: normal;
+}
+.teks_biasa {
+	font-style: normal;
+	font-size: 18;
+	color: #999;
+}
+.teks_sub_bab {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #999;
+}
+.teks_biasa {
+	font-size: 18px;
+	font-style: normal;
+	color: #999;
+}
+</style>
+<script src="../SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+function MM_effectGrowShrink(targetElement, duration, from, to, toggle, referHeight, growFromCenter)
+{
+	Spry.Effect.DoGrow(targetElement, {duration: duration, from: from, to: to, toggle: toggle, referHeight: referHeight, growCenter: growFromCenter});
+}
+</script>
+</head>
+
+
+<!-- TemplateBeginEditable name="tabel_isi" --><body onload="MM_preloadImages('../Images/099303-facebook-logo-square.png')">
+<p>&copy;baginda</p>
+<!-- TemplateEndEditable -->
+<p><a name="atas" class="teks_biasa" id="atas"></a>April 18, 2016 2:42 PM<br />
+</p>
+<p align="center"><span class="teks_utama">LATIHAN</span></p>
+<p class="teks_biasa"><em>hasil enter<br />
+hasil shift+enter</em></p>
+<p class="teks_biasa"><em><tt>hasil style teletype</tt></em></p>
+<h1 class="teks_biasa"><em>hasil paragraph</em></h1>
+<blockquote>
+  <h1 class="teks_biasa"><em>hasil indent</em></h1>
+</blockquote>
+<h1 class="teks_biasa"><em>hasil outdent</em></h1>
+<h1 class="teks_biasa"><span class="teks_sub_bab">Hasil Ordered List</span></h1>
+<ol>
+  <li>wew</li>
+  <li>wow</li>
+</ol>
+<p class="teks_sub_bab">Hasil Unordered List</p>
+<ul onclick="MM_preloadImages('../Images/Untitled.jpg')">
+  <li>
+    <h1 class="teks_biasa"><span class="teks_biasa"><span class="teks_biasa"><span class="teks_biasa">wew</span></span></span></h1>
+  </li>
+  <li>
+    <h1 class="teks_biasa"><span class="teks_biasa"><span class="teks_biasa"><span class="teks_biasa">wow</span></span></span><span class="teks_biasa"></span></h1>
+    <br />
+  <a href="../index.html"><img src="../Images/16.jpg" width="193" height="131" alt="wew" /></a><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','../Images/Untitled.jpg',1)"><img src="../Images/16.jpg" name="Image2" width="126" height="63" border="0" id="Image2" /></a></li>
+  <p><br />
+  </p>
+  <table width="303" height="66" border="2" cellpadding="2" cellspacing="2">
+    <tr>
+      <th width="70" align="center" valign="middle" scope="col"><a href="../index.html">Home</a></th>
+      <th width="90" align="center" valign="middle" scope="col" onfocus="MM_preloadImages('../Images/Untitled.jpg')">Magang</th>
+      <th width="113" align="center" valign="middle" nowrap="nowrap" scope="col">About Me</th>
+    </tr>
+  </table>
+  <p><a href="#atas">Ke Atas</a></p>
+  <p><img src="../Images/bbm.png" name="bbm" width="122" height="77" id="bbm" onclick="MM_effectGrowShrink(this, 1000, '100%', '0%', false, false, true)" onmouseover="MM_swapImage('bbm','','../Images/099303-facebook-logo-square.png',1)" onmouseout="MM_swapImgRestore()" /></p>
+  <p onclick="MM_popupMsg('ini adalah wew')">wew</p>
+  <p onclick="MM_popupMsg('ini adalah wew')">ginda ganteg<br />
+  </p>
+  </li><marquee direction="left">ginda ganteng wew</marquee>
+</ul>
+</body>
+</html>
